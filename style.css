@@ -2,7 +2,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter";
 }
+button{
+    font-family: "Inter";
+}
+main{
+    max-width: 900px;
+    margin: 0 auto;
+}
+header{
+    padding-top:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-
-
+}
+header div{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+header div ul{
+    display: flex;
+    list-style: none;
+    gap: 38px;
+}
+header div button{
+    border-radius: 5px;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 11px 30px ;
+}
