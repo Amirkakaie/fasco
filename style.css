@@ -33,3 +33,89 @@ header div button{
     color: #ffffff;
     padding: 11px 30px ;
 }
+
+
+/* the hero  */
+
+.hero{
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 900px;
+    display: flex;
+    gap: 30px;
+}
+.hero .left-man{
+    background-color: #E0E0E0;
+    width: 240px;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 12px;
+}
+
+.hero .middle{
+   display: flex;
+   flex-direction: column;
+   gap: 12px; 
+}
+.hero .middle .head{
+    background-color: #E0E0E0;
+    width: 350px;
+    height: 110px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.hero .middle .head  img{
+    width: 300px;
+}
+.hero .middle .mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero .middle .mid h2{
+    color: #484848;
+    font-size: 68px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.hero .middle .mid h2 strong{
+    color: #000000;
+    font-size: 75px;
+}
+.hero .middle .mid button{
+    background-color: #000000;
+    padding: 12px 35px;
+    color: #ffffff;
+    border-radius: 9px;
+    margin-top: 20px;
+}
+.hero .right-man{
+    background-color: #E0E0E0;
+    width: 240px;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 12px;
+}
+.hero .right-man img{
+    width: 170px;
+}
+
+.hero .left-man img{
+    width: 260px;
+}
+.hero .middle .fot{
+    width: 350px;
+    height: 110px;
+}
+.hero .middle .fot img{
+    width: 345px;
+}
